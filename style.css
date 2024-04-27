@@ -1,0 +1,107 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 192, 203, 0.779);
+  padding: 1px;
+}
+.container {
+  background-color: rgba(244, 236, 236, 0.921);
+  width: 350px;
+  height: 500px;
+  margin: auto;
+  margin-top: 130px;
+}
+.avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: black;
+  margin: auto;
+  background-image: url(https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.channel-info {
+  text-align: center;
+  margin: 30px;
+}
+
+.channel-info button {
+  background-color: rgba(107, 97, 97, 0.295);
+  color: black;
+  margin: 5px;
+  border: none;
+  padding: 5px 5px;
+  font-size: 13px;
+  font-weight: 300;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.channel-info h5 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 300;
+}
+.channel-info p {
+  margin: 15px;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.username {
+  width: 100%;
+  height: 45px;
+  margin: 30px 16px;
+}
+
+.username input {
+  width: 90%;
+  height: 100%;
+  padding-left: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.516);
+  border-radius: 5px;
+}
+.checkbox {
+  height: 12%;
+  width: 90%;
+  margin: 4% 5%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.checkbox input {
+  height: 50%;
+  width: 7%;
+}
+.checkbox label {
+  height: 78%;
+  width: 90%;
+}
+.checkbox span {
+  color: blue;
+}
+
+button {
+  margin-left: 16%;
+  margin-top: 15px;
+  padding: 8px 90px;
+  color: white;
+  background-color: rgb(227, 20, 151);
+  border: none;
+}
+
+.signin {
+  text-align: center;
+  margin: 20px;
+  text-decoration: underline;
+  color: rgb(230, 8, 141);
+}
